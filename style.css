@@ -9,12 +9,6 @@ body {
   text-shadow: 1px 1px 2px gray;
   }
   
-h1 {
-  }
-
-div {
-  
-}
 
 a {
   color: darkslategray;
@@ -25,6 +19,7 @@ a:hover {
   background-color: lightgray;
   border-radius: 3px;
 }
+
   
 @font-face {
     font-family: 'Truth And Ideals';
@@ -76,7 +71,11 @@ img {
   }
 
 .main-buttons {
-  background: url("images/Box_City_V.png") fixed;
+  background: url("images/Box_City_V.png");
+}
+
+.main-buttons a:hover{
+  background-color: transparent;
 }
 
 .sidebar {
@@ -162,6 +161,9 @@ img {
       width: 275px;
       margin-left: 10px;
       }
+    .sidebar-links {
+      height: 90px;
+    }
     .main, .main-first {
       width: 420px;
       margin-left: 315px;
@@ -177,6 +179,10 @@ img {
     margin-bottom: 15px;
     width: 90%;
     }
+  
+  .sidebar-links {
+    height: 90px;
+  }
     
   .main, .main-first, .main-buttons {
     margin: 0 auto;
